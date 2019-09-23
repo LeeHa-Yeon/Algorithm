@@ -22,7 +22,7 @@ public class ex_1181 {
                         arr[j] = word.charAt(j);
                     }
                     if(word.length()<=2){
-                        cnt++;
+                        result = true;
                     }
                     else {
                             for (int k = 0; k < word.length()-2; k++) {
