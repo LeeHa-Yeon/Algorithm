@@ -15,7 +15,7 @@ public class Programmers_H_index {
             citations1[i]=citations[i];
         }
         Arrays.sort(citations1, Collections.reverseOrder());
-        Arrays.sort(citations1, new Comparable<Integer>() {
+/*        Arrays.sort(citations1, new Comparable<Integer>() {
             @Override
             public int compareTo(Integer o) {
                 Integer j=0;
@@ -24,6 +24,8 @@ public class Programmers_H_index {
                 j++;
             }
         });
+
+ */
         return 0;
     }
 }
